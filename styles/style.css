@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+.mulish-hero-tours {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Typography Styles is Here! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Common section styles width & margins Here! */
+.common-section {
+  max-width: 1920px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 6.25rem 0;
+}
+.primary-color {
+  color: rgb(255, 84, 0);
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  width: 10.62rem;
+  height: 3.75rem;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  border: none;
+}
+.display-flex {
+  display: flex;
+}
+
+/* Styles for the main navigation menus */
+#header-section {
+  padding: 2.7rem 0;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img-container {
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo {
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-logo img {
+  width: 100%;
+}
+.menu-container {
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.menu-items {
+  list-style: none;
+}
+.menu-container,
+.menu-items > .menu-links {
+  color: rgb(66, 66, 71);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-decoration: none;
+}
+.hero-travels {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: left;
+}
+/* Explores Travels Section Style is Start Here! */
+.explore-travels {
+  max-width: 1440px;
+  width: 80%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  padding: 1rem;
+}
+.explore-content {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.explore-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.explore-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 80px;
+  padding: 1rem 0;
+  opacity: 1.7;
+}
+.explore-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+  padding: 1rem 0;
+}
+.explore-experience {
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 800px;
+  height: 3.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.experience-items {
+  width: 170px;
+  height: 2rem;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  padding: 0 1rem;
+  margin: 0 0.5rem;
+}
+#explore-btn {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 84, 0);
+  text-align: center;
+  font-size: 0.87rem;
+}
+/* Popular Destinations Tour Section Style is Here! */
+.popular-destinations {
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 50px;
+}
+.popular-text-content {
+ max-width: 870px;
+}
+.popular-title {
+  color: rgb(19, 19, 24);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+}
+.popular-description {
+  color: rgb(19, 19, 24);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.87rem;
+  text-align: left;
+  padding: 1.5rem 0;
+}
+.popular-descriptions {
+  padding-left: 1.87rem;
+  color: rgb(19, 19, 24);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  text-align: left;
+}
+.popular-img-content {
+max-width: 540px;
+  border-radius: 16px;
+}
+.popular-img-content img {
+  width: 100%;
+}
